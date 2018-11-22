@@ -3,7 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo 'Hello World'
+      - echo 'Hello World test1'
 artifacts:
   type: zip
   files:
