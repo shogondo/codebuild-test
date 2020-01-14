@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-image: shoutakenaka/nginx:1.0.0
+    image: shoutakenaka/nginx:1.0.0
     build:
       context: ./
     ports:
