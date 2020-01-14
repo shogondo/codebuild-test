@@ -7,4 +7,7 @@ phases:
   build:
     commands:
       - pwd
-      - docker-compose up -p '' -d --build
+      - docker-compose up -d --build
+  post_build:
+    commands:
+      - docker-compose down
