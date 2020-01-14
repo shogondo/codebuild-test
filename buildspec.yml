@@ -7,7 +7,3 @@ phases:
   build:
     commands:
       - echo 'Hello World'
-artifacts:
-  type: zip
-  files:
-    - target/test.txt
