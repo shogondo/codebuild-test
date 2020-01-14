@@ -1,6 +1,8 @@
 version: '3'
 services:
   web:
-    image: nginx
+image: shoutakenaka/nginx:1.0.0
+    build:
+      context: ./
     ports:
       - "8080:80"
