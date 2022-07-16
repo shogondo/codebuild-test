@@ -3,11 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      docker: 18
+      docker: 20
   build:
     commands:
       - pwd
-      - docker-compose -p '' up -d --build
-  post_build:
-    commands:
-      - docker-compose down
