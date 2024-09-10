@@ -4,4 +4,6 @@ jobs:
   Hello-World-Job:
     runs-on: codebuild-aberyo-support-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
+      - run: cat /codebuild/readonly/buildspec.yml
+      - run: pwd
       - run: echo "Hello World!"
